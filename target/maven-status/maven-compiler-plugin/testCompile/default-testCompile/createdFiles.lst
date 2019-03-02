@@ -1,0 +1,6 @@
+com\raisin\test\pages\BanksPage.class
+com\raisin\test\pages\HomePage.class
+com\raisin\test\runner\TestRunner.class
+com\raisin\stepdefinitions\BaseClass.class
+com\raisin\test\pages\OurOffersPage.class
+com\raisin\stepdefinitions\LoginStepDef.class

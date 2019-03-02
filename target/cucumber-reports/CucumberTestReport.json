@@ -1,0 +1,226 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21581414527,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the Raisin url",
+            "match": {
+              "location": "LoginStepDef.user_Opens_The_RaisinUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2443368043,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.load_Driver_And_Page_Objects()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify the offers header text on the offers page",
+        "description": "",
+        "id": "free-crm-login-feature;verify-the-offers-header-text-on-the-offers-page",
+        "after": [
+          {
+            "result": {
+              "duration": 726398317,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1169243409,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Selects the country \"Other\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Other",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDef.selects_The_Country(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10055023082,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on offers page",
+            "match": {
+              "location": "LoginStepDef.user_Clicks_On_Offers_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4149271985,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Offers header text should appear as per the value selected in the Term downdown",
+            "match": {
+              "location": "LoginStepDef.offers_header_text_should_appear_as_per_the_value_selected_in_the_Term_downdown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22183325694,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the Raisin url",
+            "match": {
+              "location": "LoginStepDef.user_Opens_The_RaisinUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1430231601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.load_Driver_And_Page_Objects()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify user is able to navigate to registration page of bank with highest interest rate",
+        "description": "",
+        "id": "free-crm-login-feature;verify-user-is-able-to-navigate-to-registration-page-of-bank-with-highest-interest-rate",
+        "after": [
+          {
+            "result": {
+              "duration": 735221266,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1195418878,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Selects the country \"Other\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Other",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDef.selects_The_Country(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4541678969,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on offers page",
+            "match": {
+              "location": "LoginStepDef.user_Clicks_On_Offers_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 943370309,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Selects EasyAccess check box",
+            "match": {
+              "location": "LoginStepDef.selects_EasyAccess_check_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15139021399,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicks on the bank with highest interest rate",
+            "match": {
+              "location": "LoginStepDef.clicks_on_the_bank_with_highest_interest_rate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11608369,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User need to navigated to the banks registration page",
+            "match": {
+              "location": "LoginStepDef.user_need_to_navigated_to_the_banks_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
